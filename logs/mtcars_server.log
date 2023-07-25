@@ -1,0 +1,25 @@
+2023-07-24 21:29:44,572.mtcars_server.INFO =============================================================
+2023-07-24 21:29:44,573.mtcars_server.INFO Today is 2023-07-24 at 09:29 PM
+2023-07-24 21:29:44,574.mtcars_server.INFO This file is running on: nt Windows 10
+2023-07-24 21:29:44,574.mtcars_server.INFO The Python version is: 3.9.5
+2023-07-24 21:29:44,575.mtcars_server.INFO The active environment path is:   C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\.venv
+2023-07-24 21:29:44,576.mtcars_server.INFO The current working directory is: C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates
+2023-07-24 21:29:44,576.mtcars_server.INFO =============================================================
+2023-07-24 21:30:16,856.mtcars_server.DEBUG filter message: Showing 32 of 32 records
+2023-07-24 21:30:17,412.mtcars_server.INFO Starting mtcars_output_widget1
+2023-07-24 21:30:19,290.mtcars_server.INFO Starting mtcars_plot1
+2023-07-24 21:30:26,623.mtcars_server.INFO READING df from C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_location.csv
+2023-07-24 21:30:26,640.mtcars_server.INFO READING df len 15
+2023-07-24 21:30:26,640.mtcars_server.INFO init reactive_temp_df len: 15
+2023-07-24 21:30:26,642.mtcars_server.INFO mtcars_temperature_location_string starting
+2023-07-24 21:30:26,643.mtcars_server.INFO Recent Temperature in F for ELY MN.
+Updated once per minute for 15 minutes.
+Keeps the most recent 10 minutes of data.
+2023-07-24 21:30:26,651.mtcars_server.INFO Rendering TEMP table with 5 rows
+2023-07-24 21:30:26,659.mtcars_server.INFO Rendering TEMP chart with 5 points
+2023-07-24 21:30:26,876.mtcars_server.INFO READING df from C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_location.csv
+2023-07-24 21:30:26,894.mtcars_server.INFO READING df len 3
+2023-07-24 21:30:26,897.mtcars_server.INFO Rendering TEMP table with 1 rows
+2023-07-24 21:30:26,906.mtcars_server.INFO Rendering TEMP chart with 1 points
+2023-07-24 21:30:27,063.mtcars_server.INFO Starting mtcars_plot1
+2023-07-24 21:30:28,020.mtcars_server.INFO Starting mtcars_plot1
