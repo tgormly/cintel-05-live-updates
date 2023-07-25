@@ -1,47 +1,19 @@
-2023-07-24 21:29:41,569.continuous_location.INFO =============================================================
-2023-07-24 21:29:41,570.continuous_location.INFO Today is 2023-07-24 at 09:29 PM
-2023-07-24 21:29:41,571.continuous_location.INFO This file is running on: nt Windows 10
-2023-07-24 21:29:41,572.continuous_location.INFO The Python version is: 3.9.5
-2023-07-24 21:29:41,572.continuous_location.INFO The active environment path is:   C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\.venv
-2023-07-24 21:29:41,573.continuous_location.INFO The current working directory is: C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates
-2023-07-24 21:29:41,574.continuous_location.INFO =============================================================
-2023-07-24 21:30:26,832.continuous_location.INFO Calling update_csv_location
-2023-07-24 21:30:26,833.continuous_location.INFO update_interval: 60
-2023-07-24 21:30:26,834.continuous_location.INFO total_runtime: 900
-2023-07-24 21:30:26,835.continuous_location.INFO num_updates: 10
-2023-07-24 21:30:26,837.continuous_location.INFO Initialized csv file at C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_location.csv
-2023-07-24 21:30:26,839.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-24 21:30:26,844.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=47.903237&lon=-91.867087&appid=None&units=imperial
-2023-07-24 21:30:26,845.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-24 21:30:26,849.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=36.5323&lon=-116.93&appid=None&units=imperial
-2023-07-24 21:30:26,850.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-24 21:30:26,852.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=40.346102&lon=-94.872471&appid=None&units=imperial
-2023-07-24 21:30:26,862.continuous_location.INFO Saving temperatures to C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_location.csv
-2023-07-24 21:31:26,861.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-24 21:31:26,864.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=47.903237&lon=-91.867087&appid=None&units=imperial
-2023-07-24 21:31:26,865.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-24 21:31:26,867.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=36.5323&lon=-116.93&appid=None&units=imperial
-2023-07-24 21:31:26,868.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-24 21:31:26,871.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=40.346102&lon=-94.872471&appid=None&units=imperial
-2023-07-24 21:31:26,875.continuous_location.INFO Saving temperatures to C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_location.csv
-2023-07-24 21:32:26,899.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-24 21:32:26,924.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=47.903237&lon=-91.867087&appid=None&units=imperial
-2023-07-24 21:32:26,925.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-24 21:32:26,927.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=36.5323&lon=-116.93&appid=None&units=imperial
-2023-07-24 21:32:26,927.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-24 21:32:26,930.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=40.346102&lon=-94.872471&appid=None&units=imperial
-2023-07-24 21:32:26,937.continuous_location.INFO Saving temperatures to C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_location.csv
-2023-07-24 21:33:26,930.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-24 21:33:26,932.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=47.903237&lon=-91.867087&appid=None&units=imperial
-2023-07-24 21:33:26,932.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-24 21:33:26,934.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=36.5323&lon=-116.93&appid=None&units=imperial
-2023-07-24 21:33:26,935.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-24 21:33:26,938.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=40.346102&lon=-94.872471&appid=None&units=imperial
-2023-07-24 21:33:26,941.continuous_location.INFO Saving temperatures to C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_location.csv
-2023-07-24 21:34:26,945.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-24 21:34:26,947.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=47.903237&lon=-91.867087&appid=None&units=imperial
-2023-07-24 21:34:26,948.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-24 21:34:26,950.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=36.5323&lon=-116.93&appid=None&units=imperial
-2023-07-24 21:34:26,951.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-07-24 21:34:26,954.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=40.346102&lon=-94.872471&appid=None&units=imperial
-2023-07-24 21:34:26,957.continuous_location.INFO Saving temperatures to C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_location.csv
+2023-07-24 21:49:12,173.continuous_location.INFO =============================================================
+2023-07-24 21:49:12,174.continuous_location.INFO Today is 2023-07-24 at 09:49 PM
+2023-07-24 21:49:12,174.continuous_location.INFO This file is running on: nt Windows 10
+2023-07-24 21:49:12,175.continuous_location.INFO The Python version is: 3.9.5
+2023-07-24 21:49:12,176.continuous_location.INFO The active environment path is:   C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\.venv
+2023-07-24 21:49:12,176.continuous_location.INFO The current working directory is: C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates
+2023-07-24 21:49:12,177.continuous_location.INFO =============================================================
+2023-07-24 21:49:22,791.continuous_location.INFO Calling update_csv_location
+2023-07-24 21:49:22,791.continuous_location.INFO update_interval: 60
+2023-07-24 21:49:22,792.continuous_location.INFO total_runtime: 900
+2023-07-24 21:49:22,793.continuous_location.INFO num_updates: 10
+2023-07-24 21:49:22,794.continuous_location.INFO Initialized csv file at C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_location.csv
+2023-07-24 21:49:22,795.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
+2023-07-24 21:49:22,798.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=47.903237&lon=-91.867087&appid=None&units=imperial
+2023-07-24 21:49:22,799.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
+2023-07-24 21:49:22,803.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=36.5323&lon=-116.93&appid=None&units=imperial
+2023-07-24 21:49:22,804.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
+2023-07-24 21:49:22,806.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=40.346102&lon=-94.872471&appid=None&units=imperial
+2023-07-24 21:49:22,815.continuous_location.INFO Saving temperatures to C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_location.csv
