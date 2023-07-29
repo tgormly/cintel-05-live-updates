@@ -63,14 +63,19 @@ def get_API_key():
 
 def lookup_lat_long(location):
     """Return the latitude and longitude for the given location."""
+    # Master dictionary of locations. Each key is a location, and each value is
+    # a dictionary itself with a "latitude" and "longitude" key, and actual numeric value for each key as the value
     locations_dictionary = {
         "ELY MN": {"latitude": 47.903237, "longitude": -91.867087},
         "Death Valley CA": {"latitude": 36.5323, "longitude": -116.93},
         "Maryville MO": {"latitude": 40.346102, "longitude": -94.872471},
+        "Madrid, Spain": {"latitude": 40.416775, "longitude": -3.703790},
     }
+    # this sets the location dictionary returned by the function, based on the location that was passed into this
+    # function
     answer_dict = locations_dictionary[location]
-    lat = answer_dict["latitude"]
-    long = answer_dict["longitude"]
+    lat = answer_dict["latitude"] # assigns value of latitude key into lat variable
+    long = answer_dict["longitude"] # assigns value of longitude key into long variable
     return lat, long
 
 
@@ -98,7 +103,7 @@ async def update_csv_location():
     """Update the CSV file with the latest location information."""
     logger.info("Calling update_csv_location")
     try:
-        locations = ["ELY MN", "Death Valley CA", "Maryville MO"]
+        locations = ["ELY MN", "Death Valley CA", "Maryville MO", "Madrid, Spain"]
         update_interval = 60  # Update every 1 minute (60 seconds)
         total_runtime = 15 * 60  # Total runtime maximum of 15 minutes
         num_updates = 10  # Keep the most recent 10 readings

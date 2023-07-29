@@ -1,22 +1,26 @@
-2023-07-24 21:49:14,344.mtcars_server.INFO =============================================================
-2023-07-24 21:49:14,344.mtcars_server.INFO Today is 2023-07-24 at 09:49 PM
-2023-07-24 21:49:14,345.mtcars_server.INFO This file is running on: nt Windows 10
-2023-07-24 21:49:14,345.mtcars_server.INFO The Python version is: 3.9.5
-2023-07-24 21:49:14,346.mtcars_server.INFO The active environment path is:   C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\.venv
-2023-07-24 21:49:14,346.mtcars_server.INFO The current working directory is: C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates
-2023-07-24 21:49:14,347.mtcars_server.INFO =============================================================
-2023-07-24 21:49:18,307.mtcars_server.DEBUG filter message: Showing 32 of 32 records
-2023-07-24 21:49:18,592.mtcars_server.INFO Starting mtcars_output_widget1
-2023-07-24 21:49:20,010.mtcars_server.INFO Starting mtcars_plot1
-2023-07-24 21:49:22,595.mtcars_server.INFO READING df from C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_location.csv
-2023-07-24 21:49:22,600.mtcars_server.INFO READING df len 10
-2023-07-24 21:49:22,601.mtcars_server.INFO init reactive_temp_df len: 10
-2023-07-24 21:49:22,604.mtcars_server.INFO mtcars_temperature_location_string starting
-2023-07-24 21:49:22,605.mtcars_server.INFO Recent Temperature in F for ELY MN.
+2023-07-29 16:44:29,781.mtcars_server.INFO =============================================================
+2023-07-29 16:44:29,782.mtcars_server.INFO Today is 2023-07-29 at 04:44 PM
+2023-07-29 16:44:29,782.mtcars_server.INFO This file is running on: nt Windows 10
+2023-07-29 16:44:29,783.mtcars_server.INFO The Python version is: 3.9.5
+2023-07-29 16:44:29,783.mtcars_server.INFO The active environment path is:   C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\.venv
+2023-07-29 16:44:29,784.mtcars_server.INFO The current working directory is: C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates
+2023-07-29 16:44:29,784.mtcars_server.INFO =============================================================
+2023-07-29 16:44:33,074.mtcars_server.DEBUG filter message: Showing 32 of 32 records
+2023-07-29 16:44:33,237.mtcars_server.INFO Starting mtcars_output_widget1
+2023-07-29 16:44:34,283.mtcars_server.INFO Starting mtcars_plot1
+2023-07-29 16:44:35,939.mtcars_server.INFO READING df from C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_location.csv
+2023-07-29 16:44:35,944.mtcars_server.INFO READING df len 10
+2023-07-29 16:44:35,945.mtcars_server.INFO init reactive_temp_df len: 10
+2023-07-29 16:44:35,948.mtcars_server.INFO mtcars_temperature_location_string starting
+2023-07-29 16:44:35,950.mtcars_server.INFO Recent Temperature in F for ELY MN.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-07-24 21:49:22,610.mtcars_server.INFO Rendering TEMP table with 3 rows
-2023-07-24 21:49:22,619.mtcars_server.INFO Rendering TEMP chart with 3 points
-2023-07-24 21:49:22,838.mtcars_server.INFO READING df from C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_location.csv
-2023-07-24 21:49:22,855.mtcars_server.INFO READING df len 3
-2023-07-24 21:49:22,857.mtcars_server.INFO Rendering TEMP table with 1 rows
+2023-07-29 16:44:35,956.mtcars_server.INFO Rendering TEMP table with 2 rows
+2023-07-29 16:44:35,962.mtcars_server.INFO Rendering TEMP chart with 2 points
+2023-07-29 16:44:45,136.mtcars_server.INFO init reactive_temp_df len: 10
+2023-07-29 16:44:45,140.mtcars_server.INFO mtcars_temperature_location_string starting
+2023-07-29 16:44:45,140.mtcars_server.INFO Recent Temperature in F for Madrid, Spain.
+Updated once per minute for 15 minutes.
+Keeps the most recent 10 minutes of data.
+2023-07-29 16:44:45,145.mtcars_server.INFO Rendering TEMP table with 3 rows
+2023-07-29 16:44:45,153.mtcars_server.INFO Rendering TEMP chart with 3 points
