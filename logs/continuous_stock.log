@@ -1,21 +1,38 @@
-2023-07-29 17:49:51,022.continuous_stock.INFO =============================================================
-2023-07-29 17:49:51,023.continuous_stock.INFO Today is 2023-07-29 at 05:49 PM
-2023-07-29 17:49:51,024.continuous_stock.INFO This file is running on: nt Windows 10
-2023-07-29 17:49:51,025.continuous_stock.INFO The Python version is: 3.9.5
-2023-07-29 17:49:51,026.continuous_stock.INFO The active environment path is:   C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\.venv
-2023-07-29 17:49:51,029.continuous_stock.INFO The current working directory is: C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates
-2023-07-29 17:49:51,053.continuous_stock.INFO =============================================================
-2023-07-29 17:50:07,744.continuous_stock.INFO Calling update_csv_stock
-2023-07-29 17:50:07,745.continuous_stock.INFO update_interval: 60
-2023-07-29 17:50:07,745.continuous_stock.INFO total_runtime: 900
-2023-07-29 17:50:07,746.continuous_stock.INFO num_updates: 10
-2023-07-29 17:50:07,755.continuous_stock.INFO Initialized csv file at C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_stock.csv
-2023-07-29 17:50:07,756.continuous_stock.INFO Querying yahoo finance for {ticker}
-2023-07-29 17:50:07,756.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/DUOL
-2023-07-29 17:50:07,757.continuous_stock.INFO Querying yahoo finance for {ticker}
-2023-07-29 17:50:07,758.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/COCO
-2023-07-29 17:50:07,758.continuous_stock.INFO Querying yahoo finance for {ticker}
-2023-07-29 17:50:07,759.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/CRCT
-2023-07-29 17:50:07,759.continuous_stock.INFO Querying yahoo finance for {ticker}
-2023-07-29 17:50:07,760.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/BIRD
-2023-07-29 17:50:07,764.continuous_stock.INFO Saving stock prices to C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_stock.csv
+2023-07-29 17:55:59,072.continuous_stock.INFO =============================================================
+2023-07-29 17:55:59,073.continuous_stock.INFO Today is 2023-07-29 at 05:55 PM
+2023-07-29 17:55:59,074.continuous_stock.INFO This file is running on: nt Windows 10
+2023-07-29 17:55:59,074.continuous_stock.INFO The Python version is: 3.9.5
+2023-07-29 17:55:59,075.continuous_stock.INFO The active environment path is:   C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\.venv
+2023-07-29 17:55:59,075.continuous_stock.INFO The current working directory is: C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates
+2023-07-29 17:55:59,076.continuous_stock.INFO =============================================================
+2023-07-29 17:56:25,276.continuous_stock.INFO Calling update_csv_stock
+2023-07-29 17:56:25,277.continuous_stock.INFO update_interval: 60
+2023-07-29 17:56:25,278.continuous_stock.INFO total_runtime: 900
+2023-07-29 17:56:25,278.continuous_stock.INFO num_updates: 10
+2023-07-29 17:56:25,279.continuous_stock.INFO Initialized csv file at C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_stock.csv
+2023-07-29 17:56:25,280.continuous_stock.INFO Querying yahoo finance for {ticker}
+2023-07-29 17:56:25,281.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/DUOL
+2023-07-29 17:56:25,436.continuous_stock.INFO Data for DUOL: <fetch.HttpResponse object at 0x000001893BB6C370>
+2023-07-29 17:56:25,437.continuous_stock.INFO Querying yahoo finance for {ticker}
+2023-07-29 17:56:25,437.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/COCO
+2023-07-29 17:56:25,534.continuous_stock.INFO Data for COCO: <fetch.HttpResponse object at 0x000001893BB6C370>
+2023-07-29 17:56:25,535.continuous_stock.INFO Querying yahoo finance for {ticker}
+2023-07-29 17:56:25,536.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/CRCT
+2023-07-29 17:56:25,706.continuous_stock.INFO Data for CRCT: <fetch.HttpResponse object at 0x000001893BB6C370>
+2023-07-29 17:56:25,707.continuous_stock.INFO Querying yahoo finance for {ticker}
+2023-07-29 17:56:25,707.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/BIRD
+2023-07-29 17:56:25,875.continuous_stock.INFO Data for BIRD: <fetch.HttpResponse object at 0x000001893BB6C370>
+2023-07-29 17:56:25,883.continuous_stock.INFO Saving stock prices to C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_stock.csv
+2023-07-29 17:57:25,895.continuous_stock.INFO Querying yahoo finance for {ticker}
+2023-07-29 17:57:25,895.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/DUOL
+2023-07-29 17:57:26,163.continuous_stock.INFO Data for DUOL: <fetch.HttpResponse object at 0x000001893A67ABB0>
+2023-07-29 17:57:26,165.continuous_stock.INFO Querying yahoo finance for {ticker}
+2023-07-29 17:57:26,168.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/COCO
+2023-07-29 17:57:26,304.continuous_stock.INFO Data for COCO: <fetch.HttpResponse object at 0x000001893A67ABB0>
+2023-07-29 17:57:26,305.continuous_stock.INFO Querying yahoo finance for {ticker}
+2023-07-29 17:57:26,305.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/CRCT
+2023-07-29 17:57:26,454.continuous_stock.INFO Data for CRCT: <fetch.HttpResponse object at 0x000001893A67ABB0>
+2023-07-29 17:57:26,455.continuous_stock.INFO Querying yahoo finance for {ticker}
+2023-07-29 17:57:26,456.continuous_stock.INFO Calling fetch_from_url for https://query1.finance.yahoo.com/v7/finance/options/BIRD
+2023-07-29 17:57:26,615.continuous_stock.INFO Data for BIRD: <fetch.HttpResponse object at 0x000001893A67ABB0>
+2023-07-29 17:57:26,626.continuous_stock.INFO Saving stock prices to C:\Users\timgo\OneDrive\Desktop\School\Summer2023\Continuous Intelligence\Module05\cintel-05-live-updates\data\mtcars_stock.csv
