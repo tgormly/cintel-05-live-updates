@@ -67,27 +67,21 @@ def get_API_key():
 
 def lookup_ticker(company):
     """Return the ticker for a given company."""
-
     company_dictionary = {
         "Duolingo": "DUOL",
         "The Vita Coco Company": "COCO",
         "Cricut": "CRCT",
         "Allbirds": "BIRD",
     }
-
     ticker = company_dictionary[company]
-
     return ticker
 
 
 async def get_stock_price(ticker):
     """Receives a company's stock symbol/ticker, queries yahoo stock api with 
     this ticker, and returns the current regular market price of this stock"""
-
     # logger stores record that function has been called and with which ticker
     logger.info("Querying yahoo finance for {ticker}")
-
-    # api_key = get_API_key() # this does not seem to be needed for this method of querying the yahoo finance API
 
     # the query URL is created and stored in the stock_api_url variable based
     # on the ticker provided by the user
