@@ -95,9 +95,10 @@ async def get_stock_price(ticker):
 
     # logger stores record that the async function fetch_from_url is being called
     logger.info(f"Calling fetch_from_url for {stock_api_url}")
-
     result = await fetch_from_url(stock_api_url, "json")
+    
     logger.info(f"Data for {ticker}: {result}")
+    price = result.data["optionChain"]["result"][0]["quote"]["regularMarketPrice"]
 
     # placeholder code to test functionality without making API calls
     # price = randint(25, 150)
