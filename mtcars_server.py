@@ -238,7 +238,7 @@ def get_mtcars_server_functions(input, output, session):
     @output
     @render.table
     def mtcars_stock_table():
-        df = get_mtcars_temp_df()
+        df = get_mtcars_stock_df()
         # Filter the data based on the selected company
         df_stock = df[df["Company"] == reactive_stock.get()]
         logger.info(f"Rendering STOCK table with {len(df_stock)} rows")
@@ -247,7 +247,7 @@ def get_mtcars_server_functions(input, output, session):
     @output
     @render_widget
     def mtcars_stock_chart():
-        df = get_mtcars_temp_df()
+        df = get_mtcars_stock_df()
         # Filter the data based on the selected location
         df_stock = df[df["Company"] == reactive_location.get()]
         logger.info(f"Rendering STOCK chart with {len(df_stock)} points")
