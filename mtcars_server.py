@@ -214,7 +214,7 @@ def get_mtcars_server_functions(input, output, session):
         df = get_mtcars_stock_df()
         logger.info(f"init reactive_temp_df len: {len(df)}")
 
-    @reactive.file_reader(str(csv_locations))
+    @reactive.file_reader(str(csv_stocks))
     def get_mtcars_stock_df():
         """Return mtcars temperatures pandas Dataframe."""
         logger.info(f"READING df from {csv_stocks}")

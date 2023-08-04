@@ -25,7 +25,13 @@ def get_mtcars_outputs():
 
             ui.tags.h3("Continuous Stock Data"),
             ui.tags.br(),
-
+            ui.output_text("mtcars_stock_string"),
+            ui.tags.br(),
+            ui.output_ui("mtcars_stock_table"),
+            ui.tags.br(),
+            output_widget("mtcars_stock_chart"),
+            ui.tags.br(),
+            ui.tags.hr(),
 
             ui.tags.hr(),
             ui.h3("Filtered Cars: Charts"),
