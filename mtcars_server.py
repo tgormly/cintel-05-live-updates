@@ -249,7 +249,7 @@ def get_mtcars_server_functions(input, output, session):
     def mtcars_stock_chart():
         df = get_mtcars_stock_df()
         # Filter the data based on the selected location
-        df_stock = df[df["Company"] == reactive_location.get()]
+        df_stock = df[df["Company"] == reactive_stock.get()]
         logger.info(f"Rendering STOCK chart with {len(df_stock)} points")
         plotly_express_plot = px.line(
             df_stock, x="Time", y="RegularMarketPrice", color="Ticker", markers=True
